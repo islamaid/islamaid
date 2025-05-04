@@ -2,12 +2,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Islamaid.org | Charity Support in Africa</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Islamaid - Charity for Muslim Communities</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Welcome to Islamaid.org</h1>
-  <p>This is a placeholder homepage for your charity website.</p>
+  <header>
+    <h1>Islamaid</h1>
+    <p>Serving Muslim Families & Communities in Africa</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#programs">Programs</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#donate">Donate</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Empowering Muslim Communities</h1>
+    <p>Through Aid, Compassion, and Action</p>
+  </div>
+
+  <section id="about">
+    <h2 class="section-title">About Us</h2>
+    <p>Islamaid is a registered charity working in Africa to support Muslim families, communities, and vulnerable individuals. We provide food and water during fasting seasons, offer medical aid to those affected by HIV/AIDS, build mosques, respond to disasters, and promote transparency, accountability, and inclusion in all our activities.</p>
+  </section>
+
+  <section id="programs">
+    <h2 class="section-title">Our Work</h2>
+    <ul>
+      <li>Food & Drink Support during Ramadan and Sitat Fast</li>
+      <li>Animal Slaughter for Communities</li>
+      <li>Water Projects: Wells and Clean Water Sources</li>
+      <li>Mosque Construction</li>
+      <li>HIV/AIDS Medical Support and Clinics</li>
+      <li>Emergency Relief Aid</li>
+    </ul>
+  </section>
+
+  <section id="upcoming-events">
+    <h2 class="section-title">Upcoming Events</h2>
+    <div class="event">
+      <h3>Ramadan Food & Drink Distribution</h3>
+      <p>Date: March 25, 2025</p>
+      <p>Location: Uganda, Various Locations</p>
+      <p>Description: Islamaid will distribute food and drinks to Muslim families and individuals during Ramadan to help them fast with ease. Join us to support this initiative.</p>
+    </div>
+    <div class="event">
+      <h3>Community Animal Slaughter for Eid</h3>
+      <p>Date: April 2025</p>
+      <p>Location: Uganda, Various Locations</p>
+      <p>Description: We will be slaughtering animals to support Muslim communities during Eid celebrations. Volunteers are welcome to assist with this important event.</p>
+    </div>
+    <div class="event">
+      <h3>Water Well Construction Campaign</h3>
+      <p>Date: May 2025</p>
+      <p>Location: Uganda, Rural Areas</p>
+      <p>Description: Aiming to provide clean water to underserved communities, we will be working on the construction of wells in remote areas of Uganda. Join us to make a difference!</p>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2 class="section-title">Gallery</h2>
+    <div class="gallery">
+      <img src="https://source.unsplash.com/300x200/?charity" alt="Gallery Image 1">
+      <img src="https://source.unsplash.com/301x200/?water" alt="Gallery Image 2">
+      <img src="https://source.unsplash.com/302x200/?mosque" alt="Gallery Image 3">
+    </div>
+  </section>
+
+  <section id="donate">
+    <h2 class="section-title">Support Our Mission</h2>
+    <a class="donate-btn" href="https://www.paypal.com" target="_blank">Donate via PayPal</a>
+    <a class="donate-btn" href="https://flutterwave.com" target="_blank">Donate via Flutterwave</a>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <p>Email: islamaidafr@gmail.com | info@islam-aid.org</p>
+    <p>Phone: +256742156417 / +256392343498</p>
+    <p>WhatsApp: +256782385082</p>
+
+    <form action="#" method="POST">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="phone">Phone Number (with country code):</label><br>
+      <input type="tel" id="phone" name="phone" placeholder="+256712345678" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+      <input type="submit" value="Send Message">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Islamaid | Transparency | Accountability | Inclusion</p>
+  </footer>
 </body>
 </html>
